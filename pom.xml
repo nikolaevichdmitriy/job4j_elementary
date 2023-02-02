@@ -64,12 +64,12 @@
                     <execution>
                         <id>validate</id>
                         <phase>validate</phase>
-                        <configuration><![CDATA[
-                            ]]><configLocation>checkstyle.xml</configLocation><![CDATA[
-                            ]]><project.build.sourceEncoding><windows-1251></project.build.sourceEncoding>
-                            <consoleOutput>true</consoleOutput><![CDATA[
-                            ]]><failsOnError>true</failsOnError><![CDATA[
-                            ]]><includeTestSourceDirectory>true</includeTestSourceDirectory>
+                        <configuration>
+                            <configLocation>checkstyle.xml</configLocation>
+
+                            <consoleOutput>true</consoleOutput>
+                            <failsOnError>true</failsOnError>
+                            <includeTestSourceDirectory>true</includeTestSourceDirectory>
                         </configuration>
                         <goals>
                             <goal>check</goal>
