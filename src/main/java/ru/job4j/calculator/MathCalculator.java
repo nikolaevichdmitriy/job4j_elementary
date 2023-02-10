@@ -12,14 +12,16 @@ public class MathCalculator {
         return answer;
     }
 
-   public static double sumAll() {
-     return  sumA(10, 20);
-   }
+    public static double sumAll(double first, double second) {
+        return sum(first, second) + multiply(first, second) + subtraction(first, second)
+                + division(first, second);
+
+    }
 
     public static void main(String[] args) {
-        System.out.println("Результат расчета равен: " + MathCalculator.sumAll());
-        System.out.println("Результат расчета равен: " + subtractionAndDivision(10, 20));
-        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
+        System.out.println("Результат расчета равен: " + MathCalculator.sumAll(20, 20));
+        System.out.println("Результат расчета равен: " + subtractionAndDivision(20, 20));
+        System.out.println("Результат расчета равен: " + sumAndMultiply(20, 20));
 
     }
 }
