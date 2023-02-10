@@ -1,0 +1,19 @@
+package ru.job4j.condition;
+
+import org.junit.Assert;
+import org.junit.Test;
+
+public class X2Test {
+
+    @Test
+    public void calc() {
+        int a = 1;
+        int b = 1;
+        int c = 1;
+        int x = 0;
+        int expected = 1;
+        int actual = X2.calc(1, 1, 1, 0);
+        Assert.assertEquals(expected, actual);
+    }
+
+}
