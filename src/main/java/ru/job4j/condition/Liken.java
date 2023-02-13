@@ -6,13 +6,13 @@ public class Liken {
         int second = 9;
 
         boolean result = first > second;
-        System.out.println(true);
+        System.out.println(result);
 
         result = first < second;
-        System.out.println(false);
+        System.out.println(result);
 
         result = first == second;
-        System.out.println(false);
+        System.out.println(result);
     }
 }
 
