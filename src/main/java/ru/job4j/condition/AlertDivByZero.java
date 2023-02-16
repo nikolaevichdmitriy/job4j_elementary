@@ -18,22 +18,3 @@ public class AlertDivByZero {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
