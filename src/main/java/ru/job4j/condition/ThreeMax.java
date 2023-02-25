@@ -11,5 +11,3 @@ public class ThreeMax {
         return result;
     }
 }
-
-
