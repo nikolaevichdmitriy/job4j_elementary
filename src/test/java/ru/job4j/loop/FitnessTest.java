@@ -4,8 +4,8 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import static org.assertj.core.api.Assertions.assertThat;
-    public class FitnessTest {
 
+    public class FitnessTest {
         @Test
         public void whenIvanGreatNik() {
             int ivan = 95;
