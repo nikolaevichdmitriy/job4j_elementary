@@ -13,6 +13,6 @@ public class Machine {
                 pocket -= coin;
             }
         }
-            return Arrays.copyOf(rsl, size);
-        }
+        return Arrays.copyOf(rsl, size);
     }
+}
