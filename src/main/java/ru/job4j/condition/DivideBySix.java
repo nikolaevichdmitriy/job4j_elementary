@@ -14,7 +14,6 @@ public class DivideBySix {
         }
         return rsl;
     }
-
     public static void main(String[] args) {
         System.out.println(DivideBySix.checkNumber(25));
     }

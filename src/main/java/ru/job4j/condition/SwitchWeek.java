@@ -31,7 +31,6 @@ public class SwitchWeek {
         }
         return name;
     }
-
     public static void main(String[] args) {
         System.out.println(SwitchWeek.nameOfDay(2));
     }

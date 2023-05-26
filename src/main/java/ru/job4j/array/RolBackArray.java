@@ -8,5 +8,4 @@ public class RolBackArray {
         }
         return result;
     }
-
     }

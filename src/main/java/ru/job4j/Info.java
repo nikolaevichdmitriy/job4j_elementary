@@ -5,4 +5,3 @@ public class Info {
         System.out.println("02.02.2023");
     }
 }
-

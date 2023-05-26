@@ -12,4 +12,3 @@ public class DoWhileExample {
         System.out.println("Пароль введён успешно!");
     }
 }
-

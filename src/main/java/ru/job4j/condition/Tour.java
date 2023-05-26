@@ -9,7 +9,6 @@ public class Tour {
             System.out.println("Tours in Russia.");
         }
     }
-
     public static void main(String[] args) {
         Tour.offer(true);
         Tour.offer(false);

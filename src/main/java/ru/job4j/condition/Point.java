@@ -4,7 +4,6 @@ public class Point {
         double rsl = (Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
         return rsl;
     }
-
     public static void main(String[] args) {
         double result = Point.distance(4, 3, 2, 0);
         System.out.println("result (0, 0) to (2, 0) " + result);
