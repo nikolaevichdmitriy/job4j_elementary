@@ -10,10 +10,9 @@ public class DummyBot {
         }
         return rsl;
     }
+
     public static void main(String[] args) {
         String rsl = DummyBot.answer("You.");
         System.out.println(rsl);
     }
 }
-
-

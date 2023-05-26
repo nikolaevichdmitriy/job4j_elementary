@@ -16,6 +16,3 @@ public class Game {
         Game.menu("tetris");
     }
 }
-
-
-
