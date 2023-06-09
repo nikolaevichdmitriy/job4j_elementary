@@ -1,12 +1,11 @@
 package ru.job4j.condition;
-
 import org.junit.Assert;
-
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class PointTest {
+
     @Test
     public void when00to20then4() {
         double expected = 4;
@@ -30,6 +29,7 @@ public class PointTest {
     }
 
     @Test
+
     public void when00to20then104Dot0() {
         double expected = 104.0;
         int x1 = 5;
@@ -51,4 +51,3 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 }
-
